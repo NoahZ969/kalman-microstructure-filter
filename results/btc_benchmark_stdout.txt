@@ -1,0 +1,14 @@
+Data: 1000 x 1-min closes from bundled sample (btcusdt_1m_sample.csv) (2026-10-02 09:15:00+00:00 -> 2026-10-03 01:54:00+00:00)
+
+method                                                 Q       R     Q/R  K_ss    -logL VarRed%   ACF1   LB p
+Manual MLE (Q, R free)                             26.68    1.62   16.49 0.946  3113.48    10.8 -0.003  0.009
+Constrained MLE, R = Roll estimator                26.43    1.76   15.01 0.941  3113.49    11.7  0.002  0.009
+Constrained MLE, R = Var(Δz)/2 (prototype)         17.32   14.94    1.16 0.643  3178.88    54.2  0.313  0.000
+pykalman EM, 10 iter (prototype)                   22.03    4.78    4.61 0.845  3119.13    28.0  0.102  0.000
+pykalman EM, 300 iter                              26.51    1.71   15.52 0.943  3113.48    11.4  0.000  0.009
+Raw 1-min log returns                                                                       0.0 -0.059
+
+Noise share of 1-min return variance (2R / Var(Δz)): 10.8%
+Lag (minutes) vs. raw price: Kalman filter = 0, SMA(10) = 4
+EM convergence run: 58.8s for 300 iterations
+saved figures to figures and results to results/btc_results.json

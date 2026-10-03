@@ -1,0 +1,33 @@
+{
+  "single_run": {
+    "true_Q": 0.25,
+    "true_R": 4.0,
+    "mle_Q": 0.17815886518999377,
+    "mle_R": 4.132485787984207,
+    "K_ss": 0.1871938301121207,
+    "var_raw_returns": 7.688853231404957,
+    "var_filtered_returns": 0.18586675362188157,
+    "variance_reduction_pct": 97.58264661805856,
+    "acf1_raw": -0.4153045652007309,
+    "acf1_filtered": 0.11627943215940248,
+    "ljung_box_Q10_innov": 12.148913827369906,
+    "ljung_box_p_innov": 0.2752139047867875,
+    "rmse_raw_vs_truth": 2.0366741255246437,
+    "rmse_filtered_vs_truth": 0.9684112278523558,
+    "rmse_smoothed_vs_truth": 0.7734067643034427
+  },
+  "monte_carlo": {
+    "n_mc": 300,
+    "n_obs": 1000,
+    "true_Q": 0.25,
+    "true_R": 4.0,
+    "mle_Q_mean": 0.24913758515512768,
+    "mle_Q_std": 0.04620210642847794,
+    "mle_R_mean": 4.002382181197385,
+    "mle_R_std": 0.1961591462593729,
+    "roll_R_mean": 4.004799601427751,
+    "roll_R_std": 0.3462130633851345,
+    "halfdiff_R_mean": 4.129533390778673,
+    "halfdiff_R_std": 0.21156118066887064
+  }
+}

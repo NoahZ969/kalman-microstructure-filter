@@ -1,0 +1,5 @@
+--- Parameter Comparison (raw USD prices) ---
+Manual MLE       -> Q: 1955.40670, R: 116.85807, Q/R: 16.73318
+Constrained MLE  -> Q: 1268.09409, R: 1094.56417, Q/R: 1.15854
+PyKalman EM      -> Q: 1590.33943, R: 369.22995, Q/R: 4.30718
+saved figures/legacy_test_bench.png

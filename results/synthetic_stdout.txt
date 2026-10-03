@@ -1,0 +1,12 @@
+True Q = 0.2500 | MLE Q = 0.1782
+True R = 4.0000 | MLE R = 4.1325
+Steady-state gain K = 0.187
+RMSE vs truth: raw 2.037 | filtered 0.968 | smoothed 0.773
+
+Monte Carlo (300 paths x 1000 obs):
+  MLE  Q = 0.249 ± 0.046   (true 0.25)
+  MLE  R = 4.002 ± 0.196   (true 4.0)
+  Roll R = 4.005 ± 0.346
+  Var(dz)/2 R = 4.130 ± 0.212   <- biased: equals R + Q/2
+
+saved figures/ and results/synthetic_results.json
